@@ -10,7 +10,19 @@ public class ASumar {
 		
 		
 	}
-}
 	
+	public String mostrar(String cad) {
+		
+	
+	if(cad.charAt(0)=='-'){
+		
+		return "";
+			
+	}
+	return null;
+	
+	}
+
+}
 	
 
