@@ -16,8 +16,24 @@ public class ASumar {
 		}
 		return null;
 	}
+<<<<<<< HEAD
 	
 }
+=======
+>>>>>>> refs/heads/prueba2
 	
+	public String mostrar(String cad) {
+		
+	
+	if(cad.charAt(0)=='-'){
+		
+		return "";
+			
+	}
+	return null;
+	
+	}
+
+}
 	
 
