@@ -8,7 +8,7 @@ public class ASumarTest {
 
 	//Probar con un número de sólo un dígito.
 	
-<<<<<<< HEAD
+
 		 @Test
 		public void testUnaCifra() {
 		        ASumar sumi = new ASumar();
@@ -18,7 +18,6 @@ public class ASumarTest {
 		 
 		 
 	
-=======
 	//Probar con un número negativo.
 	 
 		 @Test
@@ -27,6 +26,14 @@ public class ASumarTest {
 		 String resultado = sumi1.mostrar("-5" );
 		 assertEquals("", resultado);
 		 }
->>>>>>> refs/heads/prueba2
+
+//Probar un numero mayor que nueve
+		 
+		 @Test
+			public void mayorQ9Test() {
+				ASumar sumi3= new ASumar();
+				String resultado=sumi3.mostrar("123");
+				assertEquals("1+2+3=6",resultado);
+			}
 
 }
